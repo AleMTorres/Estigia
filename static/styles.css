@@ -14,10 +14,18 @@
   }
 }
 
+.banner-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
 body {
+  /* background: url("fondojulias.png"); */
   margin: 0;
   padding: 0;
-  background: rgb(2, 79, 99);
+  /* background: rgb(2, 79, 99);
   background: linear-gradient(
     180deg,
     rgba(2, 79, 99, 1) 0%,
@@ -25,9 +33,8 @@ body {
     rgba(119, 188, 193, 1) 55%,
     rgba(200, 208, 210, 1) 85%,
     rgba(254, 202, 166, 1) 99%
-  );
+  ); */
   font-family: "Montserrat", sans-serif;
-  /* font-weight: 100; */
 }
 
 .contenedor {
@@ -70,8 +77,6 @@ body {
 .video-img {
   display: flex;
   justify-content: center;
-  width: 100%;
-  height: 100%;
   margin-bottom: 50px;
 }
 
@@ -161,8 +166,6 @@ body {
 
 .banner {
   max-width: 100%;
-  margin-top: 50px;
-  margin-bottom: 50px;
 }
 
 #banner {
@@ -175,4 +178,11 @@ body {
   text-align: center;
   margin-top: 50px;
   border-radius: 5px;
+}
+
+.lectura {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
 }
