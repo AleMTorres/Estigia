@@ -111,8 +111,8 @@ body {
 }
 
 .video-img {
-  display: flex;
-  justify-content: center;
+  width: 60%;
+  height: 315px;
   margin-bottom: 50px;
 }
 
